@@ -27,4 +27,9 @@ int main()
 
     test.calc();
     test.print();
+
+    for (int i = 0; i < 3; i++) 
+        delete[] coefficient[i];
+
+    delete[] coefficient;
 }
